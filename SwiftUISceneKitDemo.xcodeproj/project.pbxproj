@@ -11,6 +11,7 @@
 		E68406E1253BAA1400E621F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68406E0253BAA1400E621F1 /* ContentView.swift */; };
 		E68406E3253BAA1600E621F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68406E2253BAA1600E621F1 /* Assets.xcassets */; };
 		E68406E6253BAA1600E621F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68406E5253BAA1600E621F1 /* Preview Assets.xcassets */; };
+		E68406EF253BAA5E00E621F1 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E68406EE253BAA5E00E621F1 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E68406E2253BAA1600E621F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E68406E5253BAA1600E621F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E68406E7253BAA1600E621F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E68406EE253BAA5E00E621F1 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				E68406DE253BAA1400E621F1 /* SwiftUISceneKitDemoApp.swift */,
 				E68406E0253BAA1400E621F1 /* ContentView.swift */,
 				E68406E2253BAA1600E621F1 /* Assets.xcassets */,
+				E68406EE253BAA5E00E621F1 /* art.scnassets */,
 				E68406E7253BAA1600E621F1 /* Info.plist */,
 				E68406E4253BAA1600E621F1 /* Preview Content */,
 			);
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E68406E6253BAA1600E621F1 /* Preview Assets.xcassets in Resources */,
+				E68406EF253BAA5E00E621F1 /* art.scnassets in Resources */,
 				E68406E3253BAA1600E621F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
