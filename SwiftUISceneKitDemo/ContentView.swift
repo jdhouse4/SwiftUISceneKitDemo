@@ -21,6 +21,11 @@ struct ContentView: View {
 
     private var aircraftScene               = SCNScene(named: "art.scnassets/ship.scn")!
 
+    // SceneView.Options for affecting the SceneView.
+    // Uncomment if you would like to have Apple do all of the camera control
+    //private var sceneViewCameraOption       = SceneView.Options.allowsCameraControl
+
+    // Don't forget to comment this is you are using .allowsCameraControl
     var drag: some Gesture {
         DragGesture()
             .onChanged { value in
@@ -35,6 +40,7 @@ struct ContentView: View {
             }
     }
 
+    // Don't forget to comment this is you are using .allowsCameraControl
     var magnify: some Gesture {
         MagnificationGesture()
             .onChanged{ (value) in
@@ -50,6 +56,7 @@ struct ContentView: View {
             }
     }
 
+    // Don't forget to comment this is you are using .allowsCameraControl
     var exclusiveGesture: some Gesture {
         ExclusiveGesture(drag, magnify)
     }
@@ -77,7 +84,7 @@ struct ContentView: View {
 
                 Text("And SceneView too")
                     .foregroundColor(Color.gray)
-                    .font(.title3)
+                    .font(.title2)
 
                 Spacer(minLength: 300)
 
@@ -132,7 +139,7 @@ struct ContentView: View {
 
         let anglePan = sqrt(pow(x,2)+pow(y,2)) * (Float)(Double.pi) / 180.0
 
-        var rotationVector = node.rotation // SCNVector4()
+        var rotationVector = SCNVector4()
 
         rotationVector.x = -y
         rotationVector.y = x
