@@ -75,7 +75,7 @@ struct ContentView: View {
 
                     .font(.largeTitle)
 
-                Text("With SceneView support too")
+                Text("And SceneView too")
                     .foregroundColor(Color.gray)
                     .font(.title3)
 
